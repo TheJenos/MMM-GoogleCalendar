@@ -223,7 +223,7 @@ module.exports = NodeHelper.create({
             id: identifier,
             error_type
           });
-          return;
+//           return;
         }
 
         const events = res.data.items;
