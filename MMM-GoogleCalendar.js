@@ -21,7 +21,7 @@ Module.register("MMM-GoogleCalendar", {
     wrapLocationEvents: false,
     maxTitleLines: 3,
     maxEventTitleLines: 3,
-    fetchInterval: 1 * 60 * 1000, // Update every 5 minutes.
+    fetchInterval: 5 * 60 * 1000, // Update every 5 minutes.
     animationSpeed: 2000,
     fade: true,
     urgency: 7,
