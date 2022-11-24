@@ -451,7 +451,7 @@ Module.register("MMM-GoogleCalendar", {
               // If event is within getRelative  hours, display 'in xxx' time format or moment.fromNow()
               timeWrapper.innerHTML = this.capFirst(
                 moment(event.startDate).fromNow()
-              ) + moment(event.startDate).format('h:mm a');
+              ) +' ('+ moment(event.startDate).format('h:mm a')+')';
             }
           } else {
             // Ongoing event
