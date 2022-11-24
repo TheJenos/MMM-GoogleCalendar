@@ -42,7 +42,7 @@ Module.register("MMM-GoogleCalendar", {
     calendars: [
       {
         symbol: "calendar",
-        url: "https://www.calendarlabs.com/templates/ical/US-Holidays.ics"
+        url: "https://www.calendarlabs.com/ical-calendar/ics/517/Sri_Lanka_Holidays.ics"
       }
     ],
     titleReplace: {
